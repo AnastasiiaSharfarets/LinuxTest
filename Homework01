@@ -1,0 +1,29 @@
+   0 cd /home
+   1 ls /
+   2 mkdir animals
+   3 cd animals/
+   4 mkdir dogs cats fishes
+   5 cd /home/animals/cats/
+   6 touch garfield.exe
+   7 touch /home/animals/dogs/pluto.exe
+   8 touch /home/animals/fishes/nemo.exe
+   9 ..
+  10 cd /home/animals/
+  11 ls
+  12 ls -la
+  13 ls -a
+  14 cd /tmp
+  15 touch adam.exe
+  16 mkdir /home/humans
+  17 cp adam.exe /home/humans/
+  18 touch evA.exe
+  19 mv evA.exe /opt/eve.exe
+  20 ls /opt/
+  21 cd /opt/
+  22 mv eve.exe /home/humans/
+  23 cd /home/humans/
+  24 ls
+  25 history > /tmp/history.txt
+  26 export_file /temp/history.txt
+  27 history
+  28 history > /tmp/history.txt 
